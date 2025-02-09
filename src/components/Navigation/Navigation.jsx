@@ -8,8 +8,12 @@ const Navigation = () => {
   return (
     <div className={css.navContainer}>
       <nav className={css.nav}>
-        <NavLink to="/" className={buildLinkClass}></NavLink>
-        <NavLink to="movies" className={buildLinkClass}></NavLink>
+        <NavLink to="/" className={buildLinkClass}>
+          Home
+        </NavLink>
+        <NavLink to="/movies" className={buildLinkClass}>
+          Movies
+        </NavLink>
       </nav>
     </div>
   );
